@@ -1,0 +1,86 @@
+body{
+    background:lightslategray;
+    box-sizing: border-box;
+}
+
+.userCard{
+    width: 300px;
+    height: 450px;
+    background: white;
+    margin: 0 auto;
+    border: 10px;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7.5%;
+    position: relative;
+}
+
+.userImageTaverna{
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.userImageSir{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 10px solid white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 40px;
+}
+
+.userImageTaverna > img{
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.userImageSir > img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.userInfoContainer{
+    position: absolute;
+    top: 250px;
+    padding: 20px;
+}
+
+.userFullName{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: slategray;
+}
+
+.userInfo{
+    font-size: 1.2em;
+    color:lightsteelblue;
+    letter-spacing: 2px;
+}
+
+.userQuotes{
+    font-size: 1.2em;
+    color: slategray;
+    padding-top: 10px;
+}
+
+.userStatContainer{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 0px;
+}
+.userStatItem{
+    display: inline-block;
+    width: 25px;
+}
